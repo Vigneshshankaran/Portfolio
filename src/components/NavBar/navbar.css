@@ -1,0 +1,114 @@
+
+.navbar {
+    display: flex;
+    background: linear-gradient(218deg, #F9F9F9 0%, #F9F9F9 0%, #9E8A8A 0%, #502ECA 100%);   
+     justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .mobile-option {
+    display: none;
+  }
+  .option a :hover {
+    color: #A3E4DB;
+    cursor: pointer;
+  }
+  .navbar_right {
+    display: flex;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin-bottom: 0 !important;
+  }
+  .navbar_right a > h4 {
+    display: flex;
+    align-self: center;
+    font-size: 0.875;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0.875;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+  .navbar_right a > h4:hover {
+    transform: scale(1.1);
+    color: #A3E4DB;
+  }
+  .navbar_right_options {
+    padding-right: 80px;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .logo-container {
+    cursor: pointer;
+  }
+  .logo-container > h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    padding: 15px 0;
+    margin-bottom: 0 !important;
+  }
+  @media (max-width: 950px) {
+    .header-mobile {
+      padding: 0px 10px;
+    }
+    .nav-options {
+      width: 100%;
+      height: 350px;
+      height: calc(100vh - 60px);
+      position: absolute;
+      top: 59px;
+      left: -100%;
+      opacity: 0;
+      transition: all 0.5s ease;
+      list-style-type: none;
+      grid-gap: 0px;
+    }
+    .nav-options.active {
+      background: linear-gradient(218deg, #F9F9F9 0%, #F9F9F9 0%, #9E8A8A 0%, #502ECA 100%);   
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+      align-content: center;
+      padding-left: 0px;
+    }
+    .menu-icon {
+      color: white;
+    }
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 10vw;
+      padding: 30px 0px;
+    }
+  
+    .navbar_right {
+      display: none;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  @media (max-width: 600px) {
+    .logo-container > a {
+      font-size: 13px;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+    color: white !important;
+  }
+  

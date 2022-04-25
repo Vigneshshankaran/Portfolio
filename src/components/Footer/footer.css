@@ -1,0 +1,17 @@
+.footer {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      background: linear-gradient(218deg, #F9F9F9 0%, #F9F9F9 0%, #9E8A8A 0%, #502ECA 100%);
+      color: white;
+      text-align: center;
+      border-top: #fff solid 1px;
+}
+
+.footer-icons {
+      font-size: 2rem;
+      margin: 1rem;
+      color: #fff;
+}
