@@ -12,7 +12,7 @@ function Header() {
   const linkedIn =
     "https://www.linkedin.com/in/vignesh-shankaran-75695941/";
   const resume =
-    "https://drive.google.com/file/d/12KD57htFzSBQwNEl7mC1rlPnWhLnkanT/view?usp=sharing";
+    "https://drive.google.com/file/d/1skubDtqRcBATkCbxBAj_yo6IIFWMYeQi/view?usp=sharing";
 
   return (
     <div className="header-wraper" id='home'>

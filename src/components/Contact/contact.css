@@ -21,8 +21,8 @@
 
 .wapper {
     height: 100vh;
-    width: 100%;
     background: linear-gradient(218deg, #F9F9F9 0%, #F9F9F9 0%, #9E8A8A 0%, #502ECA 100%);
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +30,10 @@
 
 .container {
     width: 80%;
-    background: #fff;
     border-radius: 6px;
     padding: 20px 60px 40px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
 }
 
 .container .content {
@@ -66,7 +66,7 @@
 }
 
 .container .left-side .details {
-    margin: 14px;
+    margin: 0px 14px 14px;
     text-align: center;
 }
 
@@ -77,6 +77,11 @@
 
 .container .left-side .details .text-one,
 .container .left-side .details .text-one {
+    font-size: 14px;
+    color: #000;
+}
+.container .left-side .details .text-two,
+.container .left-side .details .text-two {
     font-size: 14px;
     color: #000;
 }
@@ -150,6 +155,9 @@
     .container {
         margin: 40px 0;
         height: 100%;
+    }
+    .wapper{
+        height: auto;
     }
 
     .container .content {

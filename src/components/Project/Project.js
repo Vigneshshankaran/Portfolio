@@ -5,6 +5,8 @@ import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import Pizza from './pizza.png';
 import Password from './Passwordreset.png';
+import Money from './moneymanager.png';
+
 
 
 
@@ -87,7 +89,7 @@ export default function Project() {
                </div>
             </div>
             <div className="box">
-               <img src="https://i.postimg.cc/Ssz6spNs/annie-spratt-p-DGNBK9-A0sk-unsplash.jpg" alt="" />
+               <img src={Money} alt="" />
 
                <div className="overlay">
                   <h3>Mahbubur Rahman</h3>
