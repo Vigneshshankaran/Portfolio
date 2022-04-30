@@ -3,9 +3,10 @@ import './project.css';
 import { GrGithub, GrLink } from "react-icons/gr";
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
-import Pizza from './pizza.png';
-import Password from './Passwordreset.png';
-import Money from './moneymanager.png';
+import Money from '../../images/moneymanager.png';
+import Pizza from '../../images/pizza.png';
+import Password from '../../images/Passwordreset.png';
+
 
 
 
@@ -23,6 +24,7 @@ const BootstrapTooltip = styled(({ className, ...props }) => (
 }));
 
 export default function Project() {
+
    const github = "https://github.com/Vigneshshankaran";
 
    return (
@@ -37,24 +39,26 @@ export default function Project() {
                <img src={Pizza} alt="name" />
 
                <div className="overlay">
-                  <h3>Mahbubur Rahman</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis quibusdam omnis assumenda, ipsa doloribus labore aut suscipit in id nam iure</p>
+                  <h3>Pizza Delivery Application</h3>
+                  <p>The MERN Pizza delivery app with jwt authentication,
+delivery details, and payment gateway
+Only the admin can edit delete and update</p>
                   <BootstrapTooltip title="Frontend source code">
-                     <button>  <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>  <a href="https://github.com/Vigneshshankaran/pizza-delivery-app-frontend" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Backend source code">
 
-                     <button>   <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>   <a href="https://github.com/Vigneshshankaran/pizza-delivery-app-Backend" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Live Demo">
 
-                     <button> <a href={github} target="_blank" rel="noreferrer"><GrLink className="project-icons" />
+                     <button> <a href="https://hello-pizza-name.netlify.app/" target="_blank" rel="noreferrer"><GrLink className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
@@ -65,24 +69,25 @@ export default function Project() {
                <img src={Password} alt="" />
 
                <div className="overlay">
-                  <h3>Mahbubur Rahman</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis quibusdam omnis assumenda, ipsa doloribus labore aut suscipit in id nam iure</p>
+                  <h3>PasswordReset</h3>
+                  <p>The MERN Signup Password real-time register, login
+and forgot password with email authentication.</p>
                   <BootstrapTooltip title="Frontend source code">
-                     <button>  <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>  <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Backend source code">
 
-                     <button>   <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>   <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Live Demo">
 
-                     <button> <a href={github} target="_blank" rel="noreferrer"><GrLink className="project-icons" />
+                     <button> <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrLink className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
@@ -92,17 +97,21 @@ export default function Project() {
                <img src={Money} alt="" />
 
                <div className="overlay">
-                  <h3>Mahbubur Rahman</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis quibusdam omnis assumenda, ipsa doloribus labore aut suscipit in id nam iure</p>
+                  <h3>Expense Tracker</h3>
+                  <p>The MERN Expense Tracker application will allow
+                     users to keep track of their day-to-day expenses.
+                     Users who are signed in to their accounts will be
+                     able to add their expense records with details such
+                     as expense description, category, and amount.</p>
                   <BootstrapTooltip title="frontend source code">
-                     <button>  <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>  <a href="https://github.com/Vigneshshankaran/Expense-Tracker" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Backend source code">
 
-                     <button>   <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>   <a href="https://github.com/Vigneshshankaran/Expense-Tracker" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
@@ -116,27 +125,30 @@ export default function Project() {
                </div>
             </div>
             <div className="box">
-               <img src="https://i.postimg.cc/Ssz6spNs/annie-spratt-p-DGNBK9-A0sk-unsplash.jpg" alt="" />
+               <img src={Password} alt="" />
 
                <div className="overlay">
-                  <h3>Mahbubur Rahman</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis quibusdam omnis assumenda, ipsa doloribus labore aut suscipit in id nam iure</p>
+                  <h3>URL Shortener</h3>
+                  <p>A URL Shortener made with a MERN Stack
+(MongoDB, Express, React.js, and Node.js)
+A single-page app where a user inputs a link and
+receives a different URL in return</p>
                   <BootstrapTooltip title="frontend source code">
-                     <button>  <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>  <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Backend source code">
 
-                     <button>   <a href={github} target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
+                     <button>   <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrGithub className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>
 
                   <BootstrapTooltip title="Live Demo">
 
-                     <button> <a href={github} target="_blank" rel="noreferrer"><GrLink className="project-icons" />
+                     <button> <a href="https://under-construction-1.netlify.app/" target="_blank" rel="noreferrer"><GrLink className="project-icons" />
                      </a>
                      </button>
                   </ BootstrapTooltip>

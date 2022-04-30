@@ -42,26 +42,26 @@ export default function Contact() {
                             <div className="address details">
                                 < GrLocation className="icons" />
                                 <div className="topic"> Address</div>
-                                <div className="text-one"> Madipakkam,Chennai</div>
-                                <div className="text-two details"> Tamilnadu</div>
+                                <div className="text-one">Chennai, Tamilnadu</div>
+                                <div className="text-two details">India</div>
                             </div>
                             <div className="phone details">
                                 < GrPhone className="icons"/>
                                 <div className="topic"> Phone</div>
                                 <div className="text-one">+917200596072</div>
-                                <div className="text-two details"></div>
+                                {/* <div className="text-two details"></div> */}
                             </div>
                             <div className="email details">
                                 <GrMailOption className="icons" />
                                 <div className="topic">Email</div>
                                 <div className="text-one">vigneshshankaran@hotmail.com</div>
-                                <div className="text-two details"></div>
+                                {/* <div className="text-two details"></div> */}
                             </div>
                         </div>
                         <div className="right-side">
                             <div className="topic-text">Get In touch</div>
                             <div className="p-txt">
-                                <p>If you like my work or if you want to get in touch with me, please put a message here.</p>
+                                <p>If you like my work or if you want to get in touch with me, please leave a message.</p>
                             </div>
                             <form onSubmit={handleSubmit}>
                                 <div className="input-box">
